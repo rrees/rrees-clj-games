@@ -1,0 +1,7 @@
+h1. Snakes clone
+
+A version of the Snake exercise in Programming Clojure
+
+h2. License
+
+GPL v3
