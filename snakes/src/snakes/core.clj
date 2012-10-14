@@ -1,10 +1,14 @@
 (ns snakes.core
+  	(:require
+     	[snakes.entities :as entities]
+        [snakes.rules :as rules])
 	(:import
 		(javax.swing JPanel JFrame Timer)
 		(java.awt Dimension)
 		(java.awt.event ActionListener KeyListener)))
 
 (def width 400)
+
 (def height 400)
 
 (defn game-panel []
